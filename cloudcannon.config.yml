@@ -1,0 +1,146 @@
+_schema: _schema
+paths:
+  uploads: public/uploads
+  static: public
+collections_config:
+  pages:
+    path: src/content/pages
+    name: Pages
+    icon: wysiwyg
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  blog:
+    path: src/content/blog
+    name: Blog
+    icon: event_available
+    disable_url: false
+    description: ''
+    _editables:
+      content:
+        allow_custom_markup: false
+        remove_custom_markup: false
+        blockquote: true
+        bold: true
+        bulletedlist: true
+        center:
+        code: true
+        copyformatting: true
+        embed: true
+        expandable:
+        format: p, h2, h3, h4, h5, h6
+        height:
+        horizontalrule: true
+        image: true
+        image_size_attributes: true
+        indent: true
+        italic: true
+        justify:
+        left:
+        link: true
+        mime_type:
+        numberedlist: true
+        outdent: true
+        paths:
+        redo: true
+        removeformat: true
+        resize_style:
+        right:
+        snippet: true
+        strike: true
+        styles:
+        subscript: true
+        superscript: true
+        table: true
+        underline: true
+        undo: true
+        width:
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: .cloudcannon/schemas/post.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        name: Post
+        icon: newspaper
+        preview:
+        _editables:
+        _enabled_editors:
+        _inputs:
+        _select_data:
+        _structures:
+        create:
+        new_preview_url:
+  contact:
+    path: src/content/contact
+    name: Contact
+    icon: contacts
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  faq:
+    path: src/content/faq
+    name: Faq
+    icon: fax
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  homepage:
+    path: src/content/homepage
+    name: Homepage
+    icon: compare
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pricing:
+    path: src/content/pricing
+    name: Pricing
+    icon: dining
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  src_config:
+    path: src/config
+    name: Src Config
+    icon: roofing
+    disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  answer:
+    type: markdown
+    cascade: true
+  contacts[*]:
+    type: markdown
+    cascade: true
+timezone: Pacific/Auckland
+markdown:
+  engine: commonmark
+  options:
+    xhtml: false
+    breaks: false
+    linkify: false
+    typographer: false
+    spaced_lists: false
+    sentence_per_line: false
+    gfm: true
+    code_block_fences: '```'
+    escape_snippets_in_code_blocks: false
+    treat_indentation_as_code: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    attributes: false
