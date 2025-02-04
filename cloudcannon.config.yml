@@ -138,3 +138,16 @@ _snippets:
         - editor_key: rel
           source_key: rel
           type: string
+    _inputs:
+      style:
+        type: select
+        options: 
+          values:
+            - outline
+            - filled
+      rel:
+        type: select
+        options: 
+          values:
+            - follow
+            - nofollow
