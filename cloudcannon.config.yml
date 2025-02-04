@@ -80,46 +80,6 @@ collections_config:
         _structures:
         create:
         new_preview_url:
-  contact:
-    path: src/content/contact
-    name: Contact
-    icon: contacts
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  faq:
-    path: src/content/faq
-    name: Faq
-    icon: fax
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  homepage:
-    path: src/content/homepage
-    name: Homepage
-    icon: compare
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pricing:
-    path: src/content/pricing
-    name: Pricing
-    icon: dining
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  src_config:
-    path: src/config
-    name: Src Config
-    icon: roofing
-    disable_url: true
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
 _inputs:
   answer:
     type: markdown
