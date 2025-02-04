@@ -115,3 +115,26 @@ markdown:
     superscript: false
     heading_ids: false
     attributes: false
+
+_snippets:
+  button:
+    template: mdx_component
+    inline: false
+    preview:
+      icon: smart_button
+      text: Button
+    definitions:
+      component_name: ShortcodesButton
+      named_args:
+        - editor_key: label
+          source_key: label
+          type: string
+        - editor_key: link
+          source_key: link
+          type: string
+        - editor_key: style
+          source_key: style
+          type: string
+        - editor_key: rel
+          source_key: rel
+          type: string
