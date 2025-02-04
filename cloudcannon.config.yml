@@ -14,6 +14,8 @@ collections_config:
     description: ''
     _editables:
     _enabled_editors:
+      - visual
+      - content
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -64,6 +66,8 @@ collections_config:
         undo: true
         width:
     _enabled_editors:
+      - content
+      - visual
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
