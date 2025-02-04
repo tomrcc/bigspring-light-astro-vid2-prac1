@@ -5,6 +5,8 @@ paths:
 collections_config:
   pages:
     path: src/content/pages
+    glob:
+      - '!404.md'
     name: Pages
     icon: wysiwyg
     url: /[slug]/
